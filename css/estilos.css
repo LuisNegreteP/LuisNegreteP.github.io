@@ -39,3 +39,15 @@
 }
 
 /*informacion*/
+
+.informacion{
+  color: #08585b;
+  position: absolute;
+  bottom: 1em;
+}
+
+.informacion__titulo{
+  font-size: 18px;
+}
+
+/*habilidades*/
