@@ -1,14 +1,14 @@
 .lateral {
-  background-color: blue;
-  position: fixed;
-  width: 350 px;
   top: 0;
   left: 0;
   bottom: 0;
+  background-color: blue;
+  position: fixed;
+  width: 350px;
 }
 
 .perfil__circulo {
-  width: 50 px;
-  height: 50 px;
-  overflow: hidden;  
+  width: 50px;
+  overflow: hidden;
+  height: 50px;
 }
