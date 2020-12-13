@@ -63,3 +63,36 @@
 .habilidades{
   padding: 0;
 }
+
+.habilidad__proyecto{
+  background-color: #077ada;
+  color: white;
+  font-size: 12px;
+  display: inline-block;
+  text-transform: uppercase;
+  padding:.5em;
+}
+/*proyectos*/
+
+.proyectos{
+  margin-left: 350px;
+  padding: 1em;
+  display: table;
+}
+
+.proyecto{
+  width: 80%;
+}
+
+.proyecto__imagen{
+  width: 100%;
+}
+
+.row{
+  display: table-cell;
+}
+
+.proyecto__titulo{
+  color: #077ada;
+  font-size: 18px;
+}
