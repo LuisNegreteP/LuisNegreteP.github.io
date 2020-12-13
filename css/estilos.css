@@ -51,3 +51,15 @@
 }
 
 /*habilidades*/
+.habilidad{
+  background-color: #08585b;
+  color: white;
+  font-size: 12px;
+  display: inline-block;
+  text-transform: uppercase;
+  padding:.5em;
+}
+
+.habilidades{
+  padding: 0;
+}
