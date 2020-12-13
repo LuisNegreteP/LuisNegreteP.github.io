@@ -1,14 +1,41 @@
+*{
+  box-sizing: border-box;
+}
+
 .lateral {
   top: 0;
   left: 0;
   bottom: 0;
-  background-color: blue;
+  background-color: #2abec3;
   position: fixed;
   width: 350px;
+  padding: 1em;
 }
 
-.perfil__circulo {
+/*perfil*/
+
+.perfil__circulo{
   width: 50px;
   overflow: hidden;
   height: 50px;
+  border-radius: 50%;
+  margin:0;
 }
+
+.perfil__foto{
+  width: 100%;
+}
+
+.perfil__nombres{
+  color: white;
+  font-size: 20px;
+  width: 250px;
+  margin-left:.5em;
+}
+
+.perfil__nombres, .perfil {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/*informacion*/
