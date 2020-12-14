@@ -69,7 +69,7 @@ html{
 }
 
 .habilidad__proyecto{
-  background-color: #077ada;
+  background-color: #06467a;
   color: white;
   font-size: 12px;
   display: inline-block;
@@ -80,8 +80,12 @@ html{
 
 .proyectos{
   margin-left: 350px;
-  padding: 1em;
+  padding: 2em;
   display: table;
+}
+
+.row{
+  display: table-cell;
 }
 
 .proyecto{
@@ -90,13 +94,14 @@ html{
 
 .proyecto__imagen{
   width: 100%;
-}
-
-.row{
-  display: table-cell;
+  border: 1px solid black;
 }
 
 .proyecto__titulo{
-  color: #077ada;
+  color: #06467a;
   font-size: 18px;
+}
+
+.proyecto__descripcion{
+  color: gray;
 }
